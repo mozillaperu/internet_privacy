@@ -4,10 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Internet Privacy - FLISOL Lima 2018</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/fontawesome.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -15,8 +16,114 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+          <h1>Privacidad en Internet</h1>
+          <h3></h3>
+          <p><small>Mozilla Perú</small></p>
+          <p><small>FLISOL Lima 2018</small></p>
+        </section>
+				<section>
+          <h2>Qué es la privacidad en Internet?</h2>
+          <h3>Por qué deberia importanos?</h3>
+        </section>
+				<section>
+          <p><q cite='' class='fragment'>Online privacy is dead</q></p>
+          <p><q class='fragment' cite='https://en.wikipedia.org/wiki/Nothing_to_hide_argument'>If you've got nothing to hide, you've got nothing to fear</q></p>
+        </section>
+				<section>
+          <h3>Qué podemos hacer para protegernos?</h3>
+          <li class='fragment'>Take care about what you share</li>
+          <li class='fragment'>Dont use the same email for everything</li>
+          <li class='fragment'>Control your apps permissions</li>
+          <li class='fragment'>Manage your preferences</li>
+          <li class='fragment'>Choose strong passwords</li>
+          <li class='fragment'>Encrypt your data</li>
+        </section>
+				<section>
+          <h2>What about mozilla ..</h2>
+          <img src='images/firefox-privacy-notice.png' class='fragment'>
+        </section>
+        <section>
+          <p>From <a href='https://www.mozilla.org/en-US/about/manifesto/'>Mozilla Manifesto</a></p>
+          <blockquote cite='https://www.mozilla.org/en-US/about/manifesto/'>
+            &ldquo;
+            Individual’s security and privacy on 
+            the Internet are fundamental and must 
+            not be treated as optional.
+            &rdquo;
+          </blockquote>
+        </section>
+				<section>
+          <h2>Cómo Firefox nos puede ayudar a protegernos</h2>
+        </section>
+				<section>
+          <h2>Tracking protection / <br> Do Not Track</h2>
+          <img src='images/donottrack.png'>
+        </section>
+				<section>
+          <h2>Private Browsing</h2>
+          <img src='images/private-browsing.jpg'>
+        </section>
+				<section>
+          <h2>Firefox Focus</h2>
+          <img src='images/fx-focus1.png'>
+          <img src='images/fx-focus.png'>
+        </section>
+				<section>
+          <h1>Privacy Addons</h1>
+        </section>
+				<section>
+          <h2>No Script</h2>
+          <img src='images/noscript.png'>
+        </section>
+				<section>
+          <h2>Https everywhere</h2>
+          <img src='images/https-everywhere.png'>
+        </section>
+				<section>
+          <h2><a href='https://addons.mozilla.org/en-US/firefox/addon/facebook-container/'>Facebook Container</a></h2>
+          <img src='images/facebook-container.png' >
+        </section>
+				<section>
+          <h2>Multi Account Containers</h2>
+          <img src='images/fx-multi-containers.png'>
+        </section>
+				<section>
+          <h2><a href='https://addons.mozilla.org/en-US/firefox/addon/link-cleaner/'>Link Cleaner</a></h2>
+        </section>
+				<section>
+          <h2>Otras Herramientas</h2>
+        </section>
+				<section>
+          <h2>An alternative search engine</h2>
+          <img src='images/duckduckgo.png'>
+        </section>
+				<section>
+          <h2>A relay network</h2>
+          <img src='images/tor.png'>
+        </section>
+				<section>
+          <h2>Protonmail</h2>
+          <img src='images/protonmail.png'>
+        </section>
+				<section>
+          <h2>VPN</h2>
+        </section>
+				<section>
+          <h2>Some resources links</h2>
+          <li><a href='https://www.mozilla.org/en-US/internet-health/privacy-security/'>Mozilla Internet Health</a></li>
+          <li><a href='https://addons.mozilla.org/en-US/firefox/extensions/privacy-security/'>Privacy addons</a></li>
+          <li><a href='https://www.privacytools.io/'>PrivacyTools.io</a></li>
+        </section>
+				<section>
+          <h2>Gracias!</h2>
+        </section>
+				<section>
+          <h2>Mozilla Perú</h2>
+          <p><a href='https://mozilla.pe'><i class='fas fa-globe'></i> mozilla.pe</a></p>
+          <p><a href='https://twitter.com/mozillaperu'><i class='fab fa-twitter'></i> mozillaperu</a></p>
+          <p><a href='https://facebook.com/MozillaPeru'><i class='fab fa-facebook'></i> MozillaPeru</a></p>
+        </section>
 			</div>
 		</div>
 
@@ -27,14 +134,7 @@
 			// More info about config & dependencies:
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
+			Reveal.initialize();
 		</script>
 	</body>
 </html>
